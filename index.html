@@ -62,6 +62,7 @@
         const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
         const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
         console.log(audio); // ex. press "a" key => <audio data-key="65" src="sounds/clap.wav">
+        console.log(audio.dataset.key);
         console.log(key); // ex. press "a" key => <div class="key" data-key="65">
         if (!audio || !key) return;
 

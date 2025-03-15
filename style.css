@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url("./background.jpg") bottom center;
+  background: url("./background-drums.jpg") bottom center;
   background-size: cover;
 }
 
@@ -29,7 +29,7 @@ html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   text-shadow: 0 0 0.5rem black;
 }
 
